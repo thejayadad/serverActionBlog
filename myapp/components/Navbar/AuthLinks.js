@@ -22,8 +22,8 @@ const AuthLinks = ({user}) => {
         <div className='flex items-center gap-2'>
             <Link 
             className='links adjustment'
-            href={'/upload'}>
-                Upload
+            href={'/dashboard'}>
+                Dashboard
             </Link>
             <Link href={`/profile/${user?._id}`} className=''>
                 <Image
